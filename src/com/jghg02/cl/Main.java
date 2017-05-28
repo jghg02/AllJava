@@ -20,7 +20,7 @@ public class Main {
 
         //Instancia de la clase Student
         //Es necesario pasarle los parametros ya que en la clase Studen se definio el constructor
-        Student student = new Student("Josue","Hernandez","jghg.02@gmail.com","UCAB");
+        Student student = new Student("Josue","Hernandez","xxxx@gmail.com","UCAB");
         student.printAllData();
 
 
