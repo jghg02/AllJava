@@ -6,6 +6,9 @@ package com.jghg02.cl;
 //Los import's se realiza para poder utilizar las clases que se creen en el proyecto
 import Herencia.Student;
 import InputOutput.Inputoutput;
+import Polimorfismo.Coach;
+import Polimorfismo.FutbolTeam;
+import Polimorfismo.SoccerPlayer;
 
 //Esta es la clase principal del programa
 public class Main {
@@ -23,6 +26,11 @@ public class Main {
         Student student = new Student("Josue","Hernandez","xxxx@gmail.com","UCAB");
         student.printAllData();
 
+        FutbolTeam newCoach = new Coach();
+        FutbolTeam newFutbolPlayer = new SoccerPlayer();
+
+        newCoach.training();
+        newFutbolPlayer.training();
 
     }
 }

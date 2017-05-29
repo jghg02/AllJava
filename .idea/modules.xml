@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NetecCourse.iml" filepath="$PROJECT_DIR$/NetecCourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AllJava.iml" filepath="$PROJECT_DIR$/AllJava.iml" />
     </modules>
   </component>
 </project>
