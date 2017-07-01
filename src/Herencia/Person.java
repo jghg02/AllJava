@@ -9,6 +9,7 @@ public class Person {
     private String name;
     private String lastName;
     private String email;
+    private static String nacionalidad;
 
     /**
      * Constructor de la clase. Metodo que se invoca automaticamente cuando se instancia
@@ -42,5 +43,14 @@ public class Person {
 
     public String getEmail(){
         return email;
+    }
+
+    public static void setNacionalidad(String nacionalidad){
+        Person.nacionalidad = nacionalidad;
+
+    }
+
+    public static String getNacionalidad(){
+        return Person.nacionalidad;
     }
 }
