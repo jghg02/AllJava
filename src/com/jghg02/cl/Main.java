@@ -4,6 +4,7 @@ package com.jghg02.cl;
 
 
 //Los import's se realiza para poder utilizar las clases que se creen en el proyecto
+import Herencia.Person;
 import Herencia.Student;
 import InputOutput.Inputoutput;
 import Polimorfismo.Coach;
@@ -32,5 +33,14 @@ public class Main {
         newCoach.training();
         newFutbolPlayer.training();
 
+
+        //Implementacion de la clase person con la interfaz
+        //Instanciamos la clase Persona
+        Person p1 = new Person("Name","LastName","email@email.com");
+        //En la clase persona se implemento un metodo que lo que hace es recibir un objeto Cantante (Interfaz)
+        //y hacer la llamada al metodo de la Interfaz
+        p1.hacerCantar(p1);
     }
+
+
 }

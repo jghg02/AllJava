@@ -1,9 +1,17 @@
 package Herencia;
 
+import Interface.Cantante;
+
 /**
  * Created by jhgonzalez on 5/28/17.
  */
-public class Person {
+
+/**
+ * Clase Persona que implemta la interfaz.
+ * Al hacer que implemente la interfaz es necesario declarar la
+ * implementacion del metodo que se declaro en la interfaz
+ */
+public class Person implements Cantante{
 
     //Declaracion de todos los atributos de la clase Person
     private String name;
@@ -52,5 +60,14 @@ public class Person {
 
     public static String getNacionalidad(){
         return Person.nacionalidad;
+    }
+
+    @Override
+    public void cantar() {
+        System.out.println("Aqui va la implementación de que se quiere hacer con el metodo de la interfaz...");
+    }
+
+    public void hacerCantar(Cantante c){
+        c.cantar();
     }
 }
